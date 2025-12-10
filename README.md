@@ -8,4 +8,4 @@ Pelachat is based on AI stored on the <a href="[http://example.com/](https://oll
 * mistral: for the chatbot :robot:
 
 ## Project structure
-In this directory, the data and chroma files are missing. 
+In this directory, the data and chroma folders are missing. 
