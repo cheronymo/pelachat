@@ -8,4 +8,23 @@ Pelachat is based on AI stored on the <a href="[http://example.com/](https://oll
 * mistral: for the chatbot :robot:
 
 ## Project structure
+
+### populate_database.py 
+This script allows you to populate the PDF file database.
+Simply add the PDFs to the project's data file and run the command:
+
+You will be able to see the number of chunks added to the dataset.
+Please note that the function may stop with an error if you add too many PFDs at once. 
+
+
+### query_data.py
+This script allows you to submit a request to pelachat. Simply call the function followed by your question:
+
+### streamlit.py
+Streamlit allows you to create an HTML page to serve as an application interface for querying pelachat: 
+
+### get_embedding_function.py
+This script encapsulates the embedding function that is reused in other scripts.
+
+### Folder chroma and data
 In this directory, the data and chroma folders are missing. 
